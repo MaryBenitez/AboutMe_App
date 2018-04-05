@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">About_Me</string>
+    <string name="andrea_ben_tez">Andrea Benítez</string>
+    <string name="ingenier_a_inform_tica">Ingeniería Informática</string>
+    <string name="andrea_ben_tez">Andrea Benítez</string>
+    <string name="marybenitez">MaryBenitez</string>
+    <string name="_7795_1321">7795-1321</string>
+    <string name="_00094716_uca_edu_sv">00094716@uca.edu.sv</string>
+    <string name="power_by_andrea_ben_tez">Power by: Andrea Benítez</string>
 </resources>

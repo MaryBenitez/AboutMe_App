@@ -19,7 +19,7 @@
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Andrea Benítez"
+        android:text="@string/andrea_ben_tez"
         android:layout_below="@id/foto"
         android:layout_centerHorizontal="true"
         android:textSize="30dp"/>
@@ -28,7 +28,7 @@
         android:id="@+id/text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ingeniería Informática"
+        android:text="@string/ingenier_a_inform_tica"
         android:layout_below="@id/text"
         android:layout_centerHorizontal="true"
         android:textSize="30dp"/>
@@ -51,7 +51,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Andrea Benítez"
+            android:text="@string/andrea_ben_tez"
             android:textSize="20dp"/>
 
         <ImageView
@@ -65,7 +65,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="MaryBenitez"
+            android:text="@string/marybenitez"
             android:textSize="20dp"/>
 
     </LinearLayout>
@@ -88,7 +88,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="3"
-            android:text="7795-1321"
+            android:text="@string/_7795_1321"
             android:textSize="20dp"/>
 
         <ImageView
@@ -103,7 +103,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="3"
-            android:text="00094716@uca.edu.sv"
+            android:text="@string/_00094716_uca_edu_sv"
             android:layout_marginRight="10dp"
             android:textSize="20dp" />
 
@@ -112,7 +112,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Power by: Andrea Benítez"
+        android:text="@string/power_by_andrea_ben_tez"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"/>
 
