@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.maris.about_me.MainActivity">
+    tools:context="com.example.maris.about_me.MainActivity"
+    android:background="#04B404">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/foto"
-        android:layout_width="100dp"
-        android:layout_height="130dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:src="@drawable/foto"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="120dp"/>
+        android:layout_marginTop="80dp"/>
 
     <TextView
         android:id="@+id/text"
@@ -20,7 +21,8 @@
         android:layout_height="wrap_content"
         android:text="Andrea Benítez"
         android:layout_below="@id/foto"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"/>
 
     <TextView
         android:id="@+id/text2"
@@ -28,7 +30,8 @@
         android:layout_height="wrap_content"
         android:text="Ingeniería Informática"
         android:layout_below="@id/text"
-        android:layout_centerHorizontal="true"/>/>
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"/>
 
     <LinearLayout
         android:id="@+id/LL"
@@ -41,14 +44,15 @@
             android:layout_width="0dp"
             android:layout_height="20dp"
             android:src="@drawable/fb"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
 
         <TextView
             android:id="@+id/text3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Andrea Benítez" />
+            android:text="Andrea Benítez"
+            android:textSize="20dp"/>
 
         <ImageView
             android:layout_width="0dp"
@@ -61,7 +65,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="MaryBenitez" />
+            android:text="MaryBenitez"
+            android:textSize="20dp"/>
 
     </LinearLayout>
 
@@ -75,16 +80,19 @@
             android:layout_width="0dp"
             android:layout_height="20dp"
             android:layout_weight="1"
-            android:src="@drawable/cel" />
+            android:src="@drawable/cel"
+            android:layout_marginLeft="15dp"/>
 
         <TextView
             android:id="@+id/text5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="7795-1321" />
+            android:layout_weight="3"
+            android:text="7795-1321"
+            android:textSize="20dp"/>
 
         <ImageView
+            android:id="@+id/gmail"
             android:layout_width="0dp"
             android:layout_height="20dp"
             android:layout_weight="1"
@@ -94,8 +102,10 @@
             android:id="@+id/text6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:text="00094716@uca.edu.sv" />
+            android:layout_weight="3"
+            android:text="00094716@uca.edu.sv"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp" />
 
     </LinearLayout>
 
